@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Box-Shadow Website </title>
+</head>
+
+<body>
+
+    <div class="div-1">
+        <label for="x-position">X</label>
+        <input type="number" value="0" name="x-position" id="x-position">
+
+        <label for="y-position">Y</label>
+        <input type="number" value="0" name="y-position" id="y-position">
+
+        <label for="blur">Blur</label>
+        <input type="number" value="0" name="blur" id="blur">
+
+        <label for="spread">Spread</label>
+        <input type="number" value="0" name="spread" id="spread">
+
+        <div class="hr"></div>
+
+        <label for="shadow-color">Shadow Color</label>
+        <input type="color" value="#000000" name="shadow-color" id="shadow-color">
+
+        <label for="box-color">Box Color</label>
+        <input type="color" value="#8f8989" name="box-color" id="box-color">
+
+        <div class="generated">
+            <span>box-shadow: </span>
+            <span class="x-position">0px</span>
+            <span class="y-position">0px</span>
+            <span class="blur">0px</span>
+            <span class="spread">0px</span>
+            <span class="shadow">#000000</span>
+
+        </div>
+    </div>
+    <div class="container">
+        <div class="box">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
